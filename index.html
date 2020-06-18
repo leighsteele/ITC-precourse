@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ITC Precourse</title>
+  <link href="./style.css" rel="stylesheet" />
+
+  <!-- Favicon -->
+  <link rel="icon"
+    href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/237/pancakes_1f95e.png">
+
+  <!-- Font Awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,900|Ubuntu&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <section class="colored-section">
+    <nav class="pill-nav">
+      <ul>
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="page-wrapper">
+
+      <div class="card">
+        <div class="card-inner">
+
+          <div class="card-front">
+            <img id="profile-image" alt="Leigh profile image" class="profile-image show" />
+            <div class="spin">🥞</div>
+            <h1 id="my-name"></h1>
+            <h3 class="subtitle">ITC Fullstack Development</h3>
+          </div>
+
+          <div class="card-back">
+            <button class="click-me accordion" onclick="setTimeout(removeClass, 1000)">Click Me!</button>
+
+            <div class="panel">
+              <a href="https://www.linkedin.com/in/leighsteele" target="_blank">
+                <button class="cardBtn"><i class="fab fa-linkedin-in"></i>
+                  LinkedIn
+                </button>
+              </a>
+              <a href="https://github.com/leighsteele" target="_blank">
+                <button class="cardBtn"><i class="fab fa-github"></i>
+                  GitHub
+                </button>
+              </a>
+              <a href="https://stackoverflow.com/users/13443888/leigh-steele" target="_blank">
+                <button class="cardBtn"><i class="fab fa-stack-overflow"></i>
+                  StackOverflow
+                </button>
+              </a>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <p id="footer-string"></p>
+  </footer>
+
+  <script src="portfolio.js"></script>
+</body>
+
+</html>

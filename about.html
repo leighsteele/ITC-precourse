@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>About</title>
+  <link href="./style.css" rel="stylesheet" />
+
+  <!-- Favicon -->
+  <link rel="icon"
+    href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/237/pancakes_1f95e.png">
+
+  <!-- Font Awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,900|Ubuntu&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <section id="about-header" class="colored-section">
+    <nav class="pill-nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a class="active" href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <h1 class="big-heading">Hi, I'm Leigh <a class="down-arrow"
+        onClick="document.getElementById('about-content').scrollIntoView({behavior: 'smooth'});"> <i
+          class="fas fa-angle-double-down"></i></a></h1>
+  </section>
+
+  <section id="about-content" class="white-section">
+
+    <img src="images/coding.png" alt="coding-image">
+    <h3>Why I am interested in coding</h3>
+    <p>
+      In this day and age, learning to code opens the door to a whole new world, a world where ideas become reality. Coding is the key to the future - to endless creative opportunities and untapping
+      one's potential to improve lives
+      through technology.
+    </p>
+
+    <img src="images/education.png" alt="experience-image">
+    <h3>Education and career experience</h3>
+    <p>
+      I hold a Bachelors Degree in Architecture from the University of Cape Town.
+      After completing a six-month architecture internship in South Africa, I moved to Israel. I then discovered the
+      exciting world of high
+      tech and you could say the rest is history!
+      I have been working at a growing tech start-up in Herzliya Pituach for the last year and a half, where I have
+      learnt what it means to innovate.</p>
+
+    <img src="images/interests.png" alt="interests-image">
+    <h3>My Personal Interests</h3>
+    <p>
+      In my free time you'll find me at the beach, in an art museum or working on my photography skills. I enjoy yoga,
+      reading a good book and I am a dog person!
+    </p>
+
+  </section>
+
+  <section id="map-gallery" class="colored-section">
+    <div class="map-gallery">
+
+      <div class="gallery-map activeMap">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47425.94363430559!2d18.406281126449283!3d-33.92499230923979!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc676408400af3%3A0xb06fcd1ed860a257!2sCastle%20St%2C%20Cape%20Town%2C%20South%20Africa!5e0!3m2!1sen!2sil!4v1586098428027!5m2!1sen!2sil"
+          width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"
+          alt="Map 1"></iframe>
+        <p>I grew up in Cape Town, South Africa.</p>
+      </div>
+
+      <div class="gallery-map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2066146.3808814236!2d34.0065886644539!3d31.25159002183333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151d4ca6193b7c1f%3A0xc1fb72a2c0963f90!2sTel%20Aviv-Yafo!5e0!3m2!1sen!2sil!4v1588887546477!5m2!1sen!2sil"
+          width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+          tabindex="0"></iframe>
+        <p>I have also lived in Israel on and off throughout the years.</p>
+      </div>
+
+      <div class="gallery-map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d95777.33906317175!2d2.078727866268998!3d41.3948975937079!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a49816718e30e5%3A0x44b0fb3d4f47660a!2sBarcelona%2C%20Spain!5e0!3m2!1sen!2sil!4v1588252560573!5m2!1sen!2sil"
+          width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"
+          alt="Map 3"></iframe>
+        <p>I would like to visit Barcelona for the culture, architecture and beaches.</p>
+      </div>
+
+      <div class="gallery-map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387190.2798864718!2d-74.25986673512958!3d40.69767006847737!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sil!4v1588252751467!5m2!1sen!2sil"
+          width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"
+          alt="Map 3"></iframe>
+        <p>I spent a week in New York in 2019 and can't wait to visit again!</p>
+      </div>
+
+    </div>
+
+    <div class="gallery-btns">
+      <button class="gallery-btn prev hide">Prev</button>
+      <button class="gallery-btn next">Next</button>
+    </div>
+
+  </section>
+
+  <footer>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <p id="footer-string"></p>
+  </footer>
+
+  <script src="about.js"></script>
+</body>
